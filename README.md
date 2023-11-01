@@ -1,2 +1,1 @@
 # Nethra Sureshkumar
-theme: minima
