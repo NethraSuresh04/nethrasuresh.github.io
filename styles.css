@@ -86,7 +86,9 @@ h2 {
     margin-bottom: 20px;
     color: #404040;
 }
-
+h4 {
+  font-size: 25px;
+}
 /* Service Styles */
 .service {
     background-color: #B8B9B7;
