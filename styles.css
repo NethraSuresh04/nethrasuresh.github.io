@@ -1,23 +1,26 @@
-body {
-    font-family: Arial, sans-serif;
+/* Reset default styles */
+body, h1, h2, h3, p {
     margin: 0;
     padding: 0;
 }
 
-header {
-    background-color: ##B6D7A8;
-    color: #fff;
-    text-align: center;
-    padding: 20px;
+body {
+  background-color: #B6D7A8;
+  text-align: center;
+    font-family: 'Oswald', 'sans-serif';
 }
 
-header h1 {
-    margin: 0;
+/* Header Styles */
+header {
+    background-color: #086607;
+    color: #fff;
+    padding: 10px 0;
 }
 
 nav ul {
     list-style: none;
-    padding: 0;
+    text-align: center;
+    font-size: 20px;
 }
 
 nav ul li {
@@ -30,6 +33,18 @@ nav a {
     color: #fff;
 }
 
+/* Hero Section Styles */
+.hero {
+    background-image: url('hero-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: #fff;
+    padding: 100px 0;
+}
+
+}
+/* About, Services, Portfolio, Contact Sections Styles */
 section {
     margin: 20px;
     padding: 20px;
@@ -37,14 +52,35 @@ section {
 
 section h2 {
     font-size: 24px;
+    margin-bottom: 20px;
 }
 
-article h3 {
-    font-size: 20px;
+/* Service Styles */
+.service {
+    background-color: #8AAD7B;
+    padding: 20px;
+    margin-bottom: 20px;
+    transition: transform 0.3s;
 }
 
+.service:hover {
+    transform: scale(1.05);
+}
+.project:hover {
+    transform: scale(1.05);
+}
+/* Project Styles */
+.project {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #8AAD7B;
+   transition: transform 0.3s;
+}
+
+/* Footer Styles */
 footer {
-    background-color: ##B6D7A8;
+    background-color: #333;
     color: #fff;
     text-align: center;
     padding: 10px;
