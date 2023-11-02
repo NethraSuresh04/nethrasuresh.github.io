@@ -30,7 +30,9 @@ nav a {
     text-decoration: none;
     color: #fff;
 }
-
+li:hover{
+  text-decoration: underline;
+}
 /* Hero Section Styles */
 .hero {
     background-size: cover;
