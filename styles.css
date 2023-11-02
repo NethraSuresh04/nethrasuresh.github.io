@@ -14,7 +14,7 @@ body {
 header {
     background-color: #086607;
     color: #fff;
-    padding: 10px 0;
+    padding: 10px ;
 }
 
 nav ul {
@@ -39,6 +39,7 @@ nav a {
     background-size: cover;
     background-position: center;
     text-align: center;
+    font-size: 40px;
     color: #fff;
     padding: 100px 0;
 }
@@ -46,13 +47,14 @@ nav a {
 }
 /* About, Services, Portfolio, Contact Sections Styles */
 section {
-    margin: 20px;
-    padding: 20px;
+    margin: 50px;
+    padding: 50px;
 }
 
 section h2 {
     font-size: 24px;
     margin-bottom: 20px;
+    margin-top: 100px;
 }
 
 /* Service Styles */
@@ -60,6 +62,8 @@ section h2 {
     background-color: #8AAD7B;
     padding: 20px;
     margin-bottom: 20px;
+    margin-right: 200px;
+    margin-left: 200px;
     transition: transform 0.3s;
 }
 
@@ -74,8 +78,10 @@ section h2 {
     border: 1px solid #ddd;
     padding: 20px;
     margin-bottom: 20px;
+    margin-right: 200px;
+    margin-left: 200px;
     background-color: #8AAD7B;
-   transition: transform 0.3s;
+    transition: transform 0.3s;
 }
 
 /* Footer Styles */
